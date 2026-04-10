@@ -1,3 +1,4 @@
+//Ejercicio1
 #include <iostream>
 using namespace std;
 int main() {
@@ -8,6 +9,7 @@ cout << "saldo = " << saldo << endl; // 2000.00
 cout << "ref = " << ref << endl; // 2000.00
 return 0;
 }
+
 //ejercicio2 
 #include <iostream>
 using namespace std;
@@ -21,6 +23,7 @@ cout << "Saldo final: " << cuenta << endl; // 450
 return 0;
 }
 //ejercicio3
+
 #include <iostream>
 using namespace std;
 void intercambiar(int& a, int& b) {
