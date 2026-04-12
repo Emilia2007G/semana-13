@@ -37,6 +37,7 @@ Pregunta 3: Despues de ejecutar, ¿contador vale 15 en ambos casos? Escribe si o
 Si, porque en ambos casos se esta modificando el valor de contador, en la version con referencia se esta modificando 
 directamente el valor de contador, mientras que en la version con puntero se esta modificando el valor al que apunta el puntero, que es contador.
 ##Bloque 3
+## #Ejercicio 3
 Se usa dos listas una de nombres y otra de notas. La nota en la posición [1] le pertenece exactamente al estudiante en la posición [1] de la otra lista.
 En la función ajustarNota, hay un puntero para recibir la dirección de una nota específica. Permitiendo entrar a donde este ubicado y sumarle el 0.5 al valor original. 
 Para el promedio, usamos una referencia en lugar de un valor normal. Al calculae la suma y dividirla para el total de alumnos, el resultado se guarda automáticamente en la variable original.
